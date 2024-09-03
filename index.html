@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic Space - Mindful Social Networking Platform</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>New page</title>
+    <link href="css/theme.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&display=swap">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        body, html {
+            height: 100%;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
+            font-family: 'Albert Sans', sans-serif;
         }
-        .logo {
-            margin-top: 20px;
-            margin-bottom: 40px;
+        .container {
+            display: grid;
+            place-items: center;
+            height: 100vh;
         }
         .content {
+            display: grid;
+            gap: 1rem;
             text-align: center;
+            max-width: 90%;
+        }
+        img {
+            max-width: 20rem;
+            width: 100%;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 1rem;
+            margin: 0;
         }
         a {
-            color: #0066cc;
+            color: inherit;
             text-decoration: none;
-            margin: 0 10px;
-        }
-        a:hover {
-            text-decoration: underline;
         }
     </style>
-</head>
-<body>
-    <div class="logo">
-        <img src="/api/placeholder/200/100" alt="Logo" />
-    </div>
-    <div class="content">
-        <h1>Magicspace Online</h1>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <img src="%EF%A3%BFmagicspace.svg" alt="Magic Space">
         <p>Mindful Social Networking Platform</p>
-        <p>
-            <a href="mailto:vitteodesign?subject=Magicspace Online">Email Us</a>  
-        </p>
+        <p>Play. Create. Believe in Magic.</p><a href="mailto:vitteodesign@gmail.com" target="_blank"><p style="color: #8972e6;">Email us</p></a>
+      </div>
     </div>
-</body>
+  </body>
 </html>
